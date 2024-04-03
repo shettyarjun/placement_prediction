@@ -7,9 +7,9 @@ In this project, we have developed a placement prediction model using machine le
 We trained a Random Forest classifier using a dataset containing historical placement data of students. The dataset includes features such as:
 - Academic performance (e.g., GPA, percentage)
 - Internship experience
-- Communication skills
-- Technical skills
-- Extracurricular activities
+- Backlogs
+- leetcode stats
+- aptitude marks
 - And more...
 
 ### Steps Taken:
@@ -24,7 +24,6 @@ We trained a Random Forest classifier using a dataset containing historical plac
    - Trained the model on the training data
 
 3. **Model Evaluation**:
-   - Evaluated the model's performance using metrics such as accuracy, precision, recall, and F1-score
    - Ensured the model generalizes well on unseen data
 
 4. **Saving the Model**:
@@ -51,10 +50,6 @@ To utilize the placement prediction model in a website for progress tracking and
 5. **Display Results**:
    - Display the prediction result (placement probability) to the user.
    - Provide additional insights or recommendations based on the prediction result to guide the user's progress tracking and career decisions.
-
-6. **Progress Tracking**:
-   - Allow users to track their progress over time by saving their inputs and prediction results.
-   - Provide visualization or summary of past predictions and any changes in placement probability over time.
 
 ## Conclusion
 By integrating the placement prediction model into a website, students can receive personalized guidance and insights regarding their placement prospects. This not only helps in progress tracking but also assists students in making informed decisions about their career paths.
